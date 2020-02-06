@@ -1,4 +1,4 @@
-import { Player } from './Player';
+import { Player } from './Player.js';
 //UI Vars
 var header;
 var mainDisplay;

@@ -14,10 +14,11 @@ function init() {
     mainDisplay = document.getElementById('mainDisplay');
     header.innerHTML = "<h1>" + gameName + "</h1>";
     mainDisplay.innerHTML = "<p>Testing writing from script.</p>";
-    player.name = "Dys";
     getPlayerName();
 }
 function getPlayerName() {
-    mainDisplay.innerHTML += "\nHello, " + player.name;
+    mainDisplay.innerHTML = "<p>Enter your name: </p>\n" +
+        "<input type=\"text\" name=\"playerName\">\n" +
+        "<input type=\"button\" name=\"confirm\" value=\"Confirm\">";
 }
 //# sourceMappingURL=Core.js.map
